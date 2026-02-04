@@ -13,6 +13,9 @@ app.get("/contact",(req,res)=>{
 app.get("/help",(req,res)=>{
     res.send("this is my help page");
 });
+app.get("/dushyant",(req,res)=>{
+    res.send("this is my dushyant page");
+});
 app.use((req,res)=>{
     res.status(404).send("this page is not found");
 });
