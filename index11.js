@@ -14,5 +14,3 @@
 // server.listen(8000,()=>{
 //     console.log(`server is running at address http://localhost:8000`);
 // })
-
-console.log(process.argv);
